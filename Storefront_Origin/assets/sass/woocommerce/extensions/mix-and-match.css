@@ -1,0 +1,51 @@
+/**
+ * WooCommerce Mix and Match
+ */
+/**
+ * Imports
+ */
+.mnm_table .product-thumbnail,
+.mnm_table .product-name,
+.mnm_table .product-quantity,
+.mnm_table .container-quantity {
+  padding: 0.6180469716em 0.875em !important; }
+
+.mnm_table .mnm_item img {
+  max-width: 100%; }
+
+.mnm_table .product-name {
+  vertical-align: middle; }
+
+.cart .mnm_table_item .product-thumbnail img,
+.shop_table .mnm_table_item .product-thumbnail img {
+  max-width: 2.617924em !important; }
+
+.cart .mnm_table_item .mnm_table_item_indent,
+.shop_table .mnm_table_item .mnm_table_item_indent {
+  padding-left: 0; }
+  .cart .mnm_table_item .mnm_table_item_indent:before,
+  .shop_table .mnm_table_item .mnm_table_item_indent:before {
+    display: inline-block;
+    font: normal normal normal 1em / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    content: "\f148";
+    margin-right: 0.3819820591em;
+    opacity: .25; }
+
+.cart .mnm_table_item .product-name,
+.cart .mnm_table_item .product-price,
+.cart .mnm_table_item .product-quantity,
+.shop_table .mnm_table_item .product-name,
+.shop_table .mnm_table_item .product-price,
+.shop_table .mnm_table_item .product-quantity {
+  font-size: 1em; }
+
+.mnm_image {
+  max-width: 3.706325903em; }

@@ -1,0 +1,40 @@
+.widget-area .widget{font-size:15px}
+.widget_product_categories.widget span.expand, .widget_layered_nav_filters.widget span.expand, 	.widget_layered_nav.widget span.expand,	.widget_product_categories.widget span.collapse, .widget_layered_nav_filters.widget span.collapse, .widget_layered_nav.widget span.collapse{
+	    border: 1px solid #000;
+	    background-color: #6b6b6b;
+	    background: -webkit-gradient(linear,left top,left bottom,color-stop(50%,#6b6b6b), color-stop(50%,#6b6b6b),color-stop(50%,#494949));
+	    background: -webkit-linear-gradient(top,#6b6b6b,#494949);
+	    background: -moz-linear-gradient(top,#6b6b6b,#494949);
+	    background: -ms-linear-gradient(top,#6b6b6b,#494949);
+	    background: -o-linear-gradient(top,#6b6b6b,#494949);
+	    -webkit-box-shadow: inset 1px 1px 0 0 rgba(255,255,255,.1);
+	    -moz-box-shadow: inset 1px 1px 0 0 rgba(255,255,255,.1);
+	    box-shadow: inset 1px 1px 0 0 rgba(255,255,255,.1);
+	    color: #d9d9d9;
+	    padding: .8em;
+	    margin: 0;
+}
+
+.widget-area .widget a:not(.button){text-decoration: none;}
+.widget-area .widget a:not(.button):hover{text-decoration: underline;}
+a:focus, .button:focus, .button.alt:focus, .button.added_to_cart:focus, .button.wc-forward:focus, button:focus,
+input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus {outline: none;}
+
+@media (min-width: 768px){
+	.main-navigation ul.menu>li>a, .main-navigation ul.nav-menu>li>a { padding: 1.618em 0.7em;}
+}
+
+.main-navigation ul li a:hover, .main-navigation ul li:hover>a, .site-title a:hover, a.cart-contents:hover, .site-header-cart .widget_shopping_cart a:hover, .site-header-cart:hover>li>a, .site-header ul.menu li.current-menu-item>a {
+    background-color: #4a79f3;
+}
+.site-header-cart .cart-contents {
+    padding: 1.618em 1em;
+}
+
+@media screen and (min-width: 1050px) {
+	#masthead .main-navigation { text-align: right; position: fixed; top: 18px; right: 300px; padding: 0; width: auto;}
+	#masthead .site-logo-link {	position: fixed; top: 18px; margin: 0; padding: 0;}
+	#masthead .site-logo-link img {	width: auto;height: 35px;}
+	#masthead .site-header-cart {width: 14% !important;position: fixed !important;top: 18px;right: 12%;padding: 0;}
+	#masthead {position: fixed;top: 0;width: 100%;}
+}

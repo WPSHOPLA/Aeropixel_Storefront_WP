@@ -1,0 +1,47 @@
+/*
+Theme Name:   	Aerial Pixels 3.0 Theme
+Theme URI:    	https://aerialpixels.com
+Author:       	Leon Shelhamer
+Author URI:     http://stuartduff.com
+Template:     	storefront
+Description:  	This is a child theme for WooThemes StoreFront theme
+Version:      	3.0.0
+License:      	GNU General Public License v2 or later
+Text Domain:  	storefront
+Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
+*/
+
+
+/*
+ * Add your own custom css below this text.
+ */
+
+body.woocommerce .quantity input.qty, body.woocommerce-page .quantity input.qty {
+    width: 2.618em;
+    height: 2.1em;
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border: 0;
+    border-right: 0;
+    font-weight: 700;
+    border-radius: 0;
+    -moz-appearance: textfield;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, .025);
+    color: #43454b;
+}
+
+@media (min-width: 768px) {
+    .page-template-template-homepage-php.left-sidebar .content-area {
+        width: 73.9130434783%;
+        float: right;
+        margin-right: 0;
+    }
+    .page-template-template-homepage-php.left-sidebar .widget-area {
+        width: 21.7391304348%;
+        float: left;
+        margin-right: 4.347826087%;
+    }
+}
